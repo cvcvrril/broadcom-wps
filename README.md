@@ -163,8 +163,9 @@ the fingerprinting script using a wireless interface in monitor mode.
 |--------|---------|-----------|------------|------|
 | ARRIS | ARRIS SURFboard AC1200 | ALL | Y | - |
 | Arcadyan | VRV9517 | at least up to v6.00.18 | Y | KPN (aka "Experia Box V10A"), SPARK |
+| Askey | Speedport W 723V Typ A | ALL | Y | Deutsche Telekom | 
 | Askey | TCG3000 | ALL | Y | Orange Belgium, VOO |
-| Askey | RTF3505VW | up to at least 203_n43 | Y | Movistar / Telefonica |
+| Askey | RTF3505VW | ALL | Y | Movistar / O2 / Telefonica |
 | CastleNET | NetMASTER Infinity 401MP | ALL | Y | Türksat Cablenet |
 | CastleNET | NetMASTER CBW-383ZN | ALL | Y | Türksat Cablenet |
 | CastleNET | NetMASTER CBW-383Z4 | ALL | Y | Türksat Cablenet |
@@ -181,10 +182,12 @@ the fingerprinting script using a wireless interface in monitor mode.
 | Cisco | WAP571 | ALL | Y | - |
 | Cisco | WAP571E | ALL | Y | - |
 | Cisco | WAP581 | ALL | Y | - |
-| Comtrend | VG8050 | ALL (at least up to 2025?) | Y | Movistar / O2 / Telefonica | 
+| Comtrend | VG8050 | ALL | Y | Movistar / O2 / Telefonica | 
 | Huawei | B310 | - | ALL | - |
 | Huawei | B315 | - | ALL | - |
 | Huawei | B593 | - | ALL | - |
+| Huawei | Spedport W 724V Typ A | ALL | Y | Deutsche Telekom |
+| Huawei | Speedport Hybrid | ALL | Y | Deutsche Telekom |
 | Huawei | WS880 | - | ALL | - |
 | NetComm | NF4V | ALL | Y | Exetel, Harbour ISP, Spintel |
 | NetComm | NF10W | ALL | Y | Exetel, Aussie Broadband, Harbour ISP |
@@ -201,9 +204,12 @@ the fingerprinting script using a wireless interface in monitor mode.
 | Sagemcom | F@ST 3864 / 3864OP | ALL | Y | Optus |
 | Sagemcom | F@ST 4353 | ALL | Y | Belong |
 | Sagemcom | F@st 5336 | ALL | Y | Proximus |
+| Sagemcom | F@ST 5655 V2 | - | LIKELY | Magyar Telekom |
 | Sagemcom | F@ST 2504 / 2504N | 6.14.2a4 | Y | Sky |
 | Sagemcom | F@ST 5657 | - | LIKELY | Yoigo |
+| Sercomm | Easybox 804 | up to 05.02_5_4_8_1_325_1_21_1_8 at least | Y | Vodafone (DE) |
 | Sercomm | Group ONT L3 (253794565) | V1 | LIKELY | Vodafone / Lowi |
+| Sercomm | Speedport W 724V Typ C | ? | LIKELY | Deutsche Telekom |
 | Sky | SR203 | at least 1.3.8.0.878-2020w47.2 | Y | Sky |
 | Sky | SkyHub SR101 | 3.4.5 | Y | Sky |
 | Sky | SkyHub SR102 | 2.8.8 | Y | Sky |
@@ -218,7 +224,7 @@ the fingerprinting script using a wireless interface in monitor mode.
 | ZTE | F680 v4 | ALL | Y | MasMovil, ThailandToT, Telkom, Linkstar, Mnc, Viettel, VNPT, SeteTec, EgyptTEData, Ais, MTN, FranceReunicable, RTC, Indosat, MAXCom, EKT, OSP, Moldtelecom, Türk Telekom, TurkNet, AtlantisNet |
 | ZTE | 368N | ALL | Y | KPN (device is called "Experia Box v9"), Türk Telekom |
 | Zyxel | VMG3312-B10A, VMG3312-B10B | ALL | Y | Türk Telekom |
-| MitraStar | GPT-2541GNAC | up to at least ES_g8.4_100VNJ0b78 | Y | Movistar / Telefonica |
+| MitraStar | GPT-2541GNAC | ALL | Y | Movistar / O2 / Telefonica |
 
 ## Not Vulnerable (Patched)
 
